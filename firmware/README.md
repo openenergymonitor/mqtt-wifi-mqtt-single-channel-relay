@@ -1,10 +1,12 @@
 # Changelog
 
-# v3190 Oct 2017
+# v3190 Oct 20th 2017
 
-- Compile with SDK: 2.1.0(7106d38) fix [KRACK WPA vulnerability](https://www.krackattacks.com/)
+- Compile with SDK: 2.1.0(7106d38) fix [KRACK WPA vulnerability](https://www.krackattacks.com/). See [forum post](https://community.openenergymonitor.org/t/wifi-relay-krack/5384/7?u=glyn.hudson)
 
-https://community.openenergymonitor.org/t/wifi-relay-krack/5384/7?u=glyn.hudson
+# v2088 Mar 3rd 2016
+
+- Inital stable release
 
 ***
 
