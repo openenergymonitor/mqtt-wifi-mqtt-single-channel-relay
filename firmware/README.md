@@ -10,4 +10,10 @@
 
 ***
 
-*Update FW via web interface*
+## Update
+
+- Via web interface
+
+- Or via serial:
+
+`esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_freq 80m --flash_mode qio --flash_size 16m-c1 0x1000 XXXX.bin`
