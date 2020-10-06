@@ -25,6 +25,8 @@
 
 `esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_freq 80m --flash_mode qio --flash_size 16m-c1 0x1000 XXXX.bin`
 
+**To flash via serial USB:** Firstly disconnect the USB to power off. Then hold down the push button on the board and reconnect the USB, while still holding the button run the esptool commands shown on this page. Keep holding the button until esptool has completed flashing the firmware.
+
 ## Full Erase & Flash
 
 ```
@@ -35,5 +37,5 @@ esptool.py --port /dev/ttyUSB0 --baud 230400 write_flash --flash_freq 40m --flas
 Then upload the new firmware:
 
 ```
-esptool.py --port /dev/ttyUSB0 --baud 230400 write_flash --flash_freq 40m --flash_mode qio --flash_size 16m-c1 0x000000 "boot_v1.7.bin" 0x001000 v3360.oem.bin
+esptool.py --port /dev/ttyUSB0 --baud 230400 write_flash --flash_freq 40m --flash_mode qio --flash_size 16m-c1 0x000000 "boot_v1.7.bin" 0x001000 oem.v3361.bin
 ```
